@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOLDzod</title>
+    <link rel="stylesheet" type="text/css" href="1.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">VOLD</a>
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="mountains_behind">
+        <!-- <h2 id="text">Moon Light</h2> -->
+        <a href="#sec" id="btn">Expolore</a>
+        <img src="mountains_front.png" id="mountains_behind">
+    </section>
+    <div class="sec" id="sec">
+        <h2>....</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam amet perspiciatis commodi pariatur
+            aperiam
+            quidem quos laboriosam molestias. Vitae accusantium nam eos facilis eligendi et sunt quibusdam mollitia!
+            Exercitationem natus totam, incidunt deleniti architecto in illo harum, saepe deserunt voluptates
+            pariatur,
+            impedit repellat unde eos id nostrum dolorum soluta aliquam debitis quidem repellendus suscipit quia
+            distinctio! Natus cumque praesentium, consequuntur veniam, quam ea laborum quibusdam et unde tempora
+            magni
+            rerum eos fugit iste totam nemo minima ad similique sequi asperiores autem fuga. Sapiente praesentium
+            aspernatur veniam repudiandae, totam magnam et omnis aperiam aut ducimus debitis facilis voluptatibus
+            voluptate molestiae soluta repellat itaque, consequuntur nemo laborum maiores neque numquam at a.
+            Mollitia,
+            deleniti! Ea reprehenderit impedit omnis debitis blanditiis similique, voluptates vitae veniam laborum
+            nemo.
+            Suscipit tenetur nesciunt totam quam qui porro minus tempore id temporibus quaerat labore repellendus
+            voluptates perferendis, doloribus officia ad nihil consequuntur odit error reprehenderit, ullam
+            voluptatem.
+            Tenetur cumque mollitia asperiores soluta neque quis esse nemo repellendus recusandae? Excepturi
+            reiciendis
+            iusto nostrum error ab adipisci et nulla aut eaque est pariatur, voluptatem soluta atque eligendi
+            possimus
+            assumenda deleniti sit tenetur sunt aperiam. Ad vitae molestias deleniti asperiores cum. Ratione vero
+            vel et
+            odio quod soluta est. Ab?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora placeat dolore libero laboriosam nam enim
+            illum aperiam eveniet cumque doloremque. Est, praesentium et porro incidunt nobis vitae magni quo? Deserunt
+            est quis dolore magnam soluta. Perferendis saepe quo cumque explicabo quia ea nesciunt, iusto voluptatem id
+            sequi natus, distinctio praesentium, aperiam nam? Tempora nulla obcaecati, hic ipsa repellat quos corrupti,
+            eaque cum eveniet odit consectetur debitis ipsam sequi eum, labore dolor dolores delectus. Repellat porro
+            nihil quod doloribus illo atque perspiciatis, rerum modi quo ullam omnis numquam. Laudantium illum, est sint
+            dolore quis delectus nobis, ea fugiat, repellendus officia qui consectetur. Autem placeat officia culpa
+            ducimus expedita dolores. Molestias ut accusantium aliquam vel sunt aperiam iure expedita itaque repudiandae
+            consectetur, suscipit aliquid iste sequi ex adipisci mollitia optio perspiciatis qui exercitationem
+            similique quis pariatur consequuntur. Exercitationem at sequi reprehenderit non similique deleniti dolor
+            necessitatibus fugit ab. Nihil accusamus repudiandae ipsa quasi ipsum cumque nobis voluptatum ratione
+            debitis aperiam veniam quod atque rerum nisi officiis nostrum facilis voluptatem libero incidunt tenetur,
+            vel expedita distinctio? Facilis ad aperiam accusamus consectetur voluptatibus, deleniti ut, impedit ea id
+            tempora nobis suscipit placeat amet optio pariatur error ullam necessitatibus asperiores voluptate
+            aspernatur perspiciatis sint. Ut!
+            <!-- runo -->
+        </p>
+    </div>
+
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_behind');
+
+        window / addEventListener('scroll', function () {
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px'
+            /* moon.style.top = value * 1.05 + 'px' */
+            text.style.marginRight = value * 4 + 'px'
+
+        })
+    </script>
+</body>
+<footer>
+
+    <div class="line"></div>
+
+</footer>
+
+</html>
